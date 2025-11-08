@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 });
 
 // --- Fetch Menu Data ---
-app.post("/restaurant/menu", async (req, res) => {
+app.get("/restaurant/menu", async (req, res) => {
   try {
     console.log("📥 Request received for /restaurant/menu");
 
