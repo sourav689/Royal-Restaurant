@@ -6,7 +6,6 @@ import MenuPage from './components/MenuPage';
 import BookingPage from './components/BookingPage';
 import AboutPage from './components/AboutPage';
 import DemoOne from './components/gallery'; // ✅ Gallery page
-import AdminPage from './components/AdminPage';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -31,9 +30,7 @@ export default function App() {
         // ✅ Gallery page shown when "Go to Gallery" button is clicked
         return <DemoOne onNavigate={setCurrentPage} currentPage={currentPage} />;
 
-      case 'Admin':
-        // ✅ Gallery page shown when "Go to Gallery" button is clicked
-        return <AdminPage onNavigate={setCurrentPage} currentPage={currentPage} />;
+    
       default:
         // ✅ Safe fallback to HomePage
         return <HomePage onNavigate={setCurrentPage} currentPage={currentPage} />;

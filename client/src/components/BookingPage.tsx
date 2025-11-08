@@ -18,8 +18,8 @@ interface Table {
   isfamily: boolean; // Family seating status
 }
 
-const TABLE_ENDPOINT = 'http://localhost:5000/restaurant/table';
-const BOOKING_ENDPOINT = 'http://localhost:5000/booking';
+const TABLE_ENDPOINT = 'https://royal-restaurant-lanx.onrender.com/restaurant/table';
+const BOOKING_ENDPOINT = 'https://royal-restaurant-lanx.onrender.com/booking';
 
 export default function BookingPage() {
   const [tables, setTables] = useState<Table[]>([]);

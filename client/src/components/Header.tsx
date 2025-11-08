@@ -7,7 +7,7 @@ interface HeaderProps {
 }
 
 export default function Header({ currentPage, onNavigate }: HeaderProps) {
-  const navItems = ['Home', 'Menu', 'Booking', 'About' , 'Gallery' , 'Admin'];
+  const navItems = ['Home', 'Menu', 'Booking', 'About' , 'Gallery' ];
 
   return (
     <motion.header

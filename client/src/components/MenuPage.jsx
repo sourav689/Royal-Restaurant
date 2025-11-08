@@ -13,7 +13,7 @@ import CancelRoundedIcon from '@mui/icons-material/CancelRounded';
 import LocalDiningRoundedIcon from '@mui/icons-material/LocalDiningRounded';
 import LocalBarRoundedIcon from '@mui/icons-material/LocalBarRounded';
 // --- Configuration ---
-const BACKEND_ENDPOINT = 'http://localhost:5000/restaurant/menu';
+const BACKEND_ENDPOINT = 'https://royal-restaurant-lanx.onrender.com/restaurant/menu';
 // Mapping backend category names to your existing structure categories
 const CATEGORY_MAP = {
     'Starter': 'Starters & Snacks', 
